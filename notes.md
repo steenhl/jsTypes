@@ -85,4 +85,8 @@ symbol[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_
   - 2. An array
   - 3. A date
 
-educative [https://www.educative.io/explore]
+## Link and books
+
+- educative [https://www.educative.io/explore]
+- Learn to code with javascript [https://www.sitepoint.com/premium/books/learn-to-code-with-javascript/read/1/]
+- GitHub repository: **Steen h Larsen** [https://github.com/steenhl/jsTypes]

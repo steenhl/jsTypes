@@ -12,11 +12,11 @@ Template literals are literals delimited with backtick (`) and can contain varia
 
 #### String methodes
 
-- 'Hello'.indexOf('e')
-- 'Hello'.chatAt(1)
-- 'Hello'.lastIndexOf('l');
-- 'Hello'.includes('e');
-- 'Hello'.length;
+- `'Hello'.indexOf('e')`
+- `'Hello'.chatAt(1)`
+- `'Hello'.lastIndexOf('l')`
+- `'Hello'.includes('e')`
+- `'Hello'.length`
 
 #### Text to Number
 
@@ -24,12 +24,14 @@ Template literals are literals delimited with backtick (`) and can contain varia
 
 #### Methodes
 
+- parseFloat()
 - parseInt()
 - Number()
-- Unary Operator (+)
-- parseFloat()
 - Math.floor()
+- Unary Operator (+)
 
-## exercise
+## String exercises
 
-**String exercise** [https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_string_methods1]
+- [https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_string_methods1]
+
+- learn-to-code-with-javascript[https://www.sitepoint.com/premium/books/learn-to-code-with-javascript/read/3/kml7wxvg/]
