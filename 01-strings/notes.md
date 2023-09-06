@@ -35,3 +35,5 @@ Template literals are literals delimited with backtick (`) and can contain varia
 - [https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_string_methods1]
 
 - learn-to-code-with-javascript[https://www.sitepoint.com/premium/books/learn-to-code-with-javascript/read/3/kml7wxvg/]
+
+string[https://github.com/steenhl/jsTypes/tree/main]

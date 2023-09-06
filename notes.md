@@ -2,36 +2,46 @@
 
 datatypes[https://www.w3schools.com/js/js_datatypes.asp]
 
-1. String
-2. Number
-3. Bigint
-4. Boolean
-5. Undefined
-6. Null
-7. Symbol
-8. Object
+| Number | Types     | Description   |
+| ------ | --------- | ------------- |
+| 1      | String    | Primitive     |
+| 2      | Number    | Primitive     |
+| 3      | Bigint    | Primitive     |
+| 4      | Boolean   | Primitive     |
+| 5      | Undefined | Primitive     |
+| 6      | Null      | Primitive     |
+| 7      | Symbol    | Primitive     |
+| 8      | Object    | Non primitive |
 
 # Primitives and Non-Primitives data types
 
 JavaScript primitive data types are data types that refer to a single value.
 
-- `let a = 3`
-- `let b = a`
-- `b = 4`
-- `a === b`: false
+## Primitives are immutable
+
+Primitives are known as being immutable data types because there is no way to change a primitive value once it gets
+created.
+
+> - `let halloWold = "hallo wold";`
+> - `halloWold[0] = "J";`
+> - `console.log(halloWold);`
+> - `hallo wold`
+
+But it is possible to assign a new value to the helloWold variable as shown below
+
+> - `let halloWold = "hallo wold";`
+> - `halloWold = "Hallo Frinds";`
+> - `console.log(halloWold);`
+> - `Hallo Frinds`
+
+We can assign a value from another variabel and then compaire the two variabel
+
+> - `let a = 3`
+> - `let b = a`
+> - `b = 4`
+> - `a === b`: false
 
 [data-types-in-javascript]https://www.edureka.co/blog/data-types-in-javascript/
-
-An object holds a reference/address of a single key-value pair or many key-value pairs. Whenever we refer to an object,
-we refer to an address in memory which contains the key-value pair.
-
-- `let name1 = {name: "ole"}`
-- `let name2 = name1`
-- `console.log(name2)` : `{name: "ole"}`
-- `name2.name = "Kurt"`
-- `console.log(name1)` : `{name: "Kurt"}`
-- `console.log(name2)` : `{name: "Kurt"}`
-- `name2 === name1` : true
 
 ## Difference beteen primitive and non-primitives
 
@@ -40,7 +50,25 @@ the ‘address’ in memory which contains single or multiple key-value pair/s.
 
 ## Only the Object type are non-primitive
 
-Object point to one place in memory
+An object holds a reference/address of a single key-value pair or many key-value pairs. Whenever we refer to an object,
+we refer to an address in memory which contains the key-value pair.
+
+> - `let name1 = {name: "ole"}`
+> - `let name2 = name1`
+> - `console.log(name2)` : `{name: "ole"}`
+
+Adding the variable "name1 "equal to variabel "name2" do not copy the value from variable "name1 to varable "name2" but
+add a referance to the same place in memory
+
+> - `name2.name = "Kurt"`
+> - `console.log(name1)` : `{name: "Kurt"}`
+> - `console.log(name2)` : `{name: "Kurt"}`
+> - `name2 === name1` : true
+
+**Variable "name1" and variable "name2" point at the same place in memory.**
+
+When we changing the value of the variable **"name2"** we at the same time change the value of the variable **"name1"**,
+because they pointing at the same place in memory
 
 ## Examples
 
